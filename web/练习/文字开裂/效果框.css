@@ -1,0 +1,55 @@
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: default;
+    transition: filter 0.5s,transform 0.5s;
+}
+
+.item div{
+    color: white;
+    font-size: 7vw;
+    top: 0px;
+    opacity: 1;
+    transition: top 0.5s,opacity 0.5s;
+}
+
+.item div:nth-child(1){
+    position: absolute;
+    clip-path: polygon(0% 0%,100% 0%,100% 52%,0% 52%);
+}
+
+.item div:nth-child(2){
+    position: relative;
+    clip-path: polygon(0% 52%,100% 52%,100% 100%,0% 100%);
+}
+
+.item a{
+    position: absolute;
+    opacity: 0;
+    font-size: 20px;
+    text-decoration: none;
+    transition: opacity 0.5s;
+    color: white;
+}
+
+.未选中{
+    filter: blur(7px);
+    transform: scale(0.8);
+    transition: filter 0.5s,transform 0.5s;
+}
+
+.item:hover div:nth-child(1){
+    top: -40px;
+    opacity: 0.5;
+}
+
+.item:hover div:nth-child(2){
+    top: 40px;
+    opacity: 0.5;
+}
+
+.item:hover a{
+    opacity: 1;
+}

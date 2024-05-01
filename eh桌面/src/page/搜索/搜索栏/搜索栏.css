@@ -1,0 +1,147 @@
+.搜索块{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    transition:padding-right 0.3s;
+}
+
+.搜索块-位移{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    padding-right: 300px;
+}
+
+.搜索框{
+    height: 40px;
+    padding-left: 5px;
+    width: 100%;
+    margin-right: 5px;
+    background-color: rgb(35, 38, 41);
+    border: 0px solid;
+    border-bottom: 2px solid rgb(255, 64, 129);
+    color: white;
+    outline: none;
+    position: relative;
+    text-indent: 10px;
+    border-radius: 3px;
+}
+
+.提示块_隐藏{
+    display: none;
+}
+
+.提示块{
+    width: 100%;
+    position: relative;
+    list-style-type: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.提示块 :last-child{
+    border: 0px;
+}
+
+.提示_浮动{
+    width: calc(100% - 77px);
+    /* text-indent: 15px; */
+    max-height: 300px;
+    background-color: rgb(35, 38, 41);
+    position: absolute;
+    overflow: auto;
+    border-radius: 5px;
+    user-select: none;
+}
+
+.提示_浮动::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+    background-color: rgb(35, 38, 41);
+}
+
+.提示_内容{
+    color: white;
+    padding: 0px 14px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(80, 80, 80);
+    cursor: pointer;
+}
+
+.提示_内容:hover{
+    background-color: rgba(21, 22, 24, 0.5);
+}
+
+.提示_中文{
+    margin-top: 5px;
+}
+
+
+.按下搜索{
+    color: rgb(255, 64, 129);
+    border-radius: 5px;
+    border: solid rgb(255, 64, 129) 2px;
+    height: 40px;
+    width: 75px;
+    transition: box-shadow 0.3s;
+    background-color: rgb(49, 54, 59);
+    user-select: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.按下搜索:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 10px rgb(255, 64, 129);
+}
+
+.搜索框[type=search]::-webkit-search-cancel-button{
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-image: url('/icon/close-outline.svg');
+}
+
+.标签块{
+    display: flex;
+    padding-bottom: 5px;
+    border-bottom: 3px solid rgb(35, 38, 41);
+    overflow: hidden;
+}
+
+.标签块 input{
+    display: none;
+}
+
+.标签块 label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 7px;
+    height: 45px;
+    margin-top: 10px;
+    margin-right: 7px;
+    border-radius: 7px;
+    user-select: none;
+    cursor: pointer;
+    transition: background-color 0.3s,box-shadow 0.3s;
+}
+
+.tag块 label{
+    color: white;
+    border: solid 2px rgba(196, 95, 125, 0);
+    font-weight: 550
+}
+
+
+.全选{
+    background-color: rgb(49, 54, 59);
+    color: rgb(255, 64, 129);
+    border: solid 2px rgb(255, 64, 129);
+}
+
+.全选:hover{
+    box-shadow: 1px 1px 10px rgb(255, 64, 129);
+}

@@ -1,0 +1,24 @@
+body{
+    background-color: #34353b;
+    color: #F1F1F1;
+    font-size: 15px;
+}
+
+.匹配数量{
+    min-width: 720px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.底部备注{
+    text-align: center;
+}
+
+.底部提示{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    bottom:0px ;
+    text-align: center;
+    cursor: pointer;
+}

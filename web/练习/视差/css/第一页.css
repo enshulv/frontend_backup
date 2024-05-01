@@ -1,0 +1,43 @@
+.最外层{
+    background-image: url(../img/1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.第一个{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.第一个 h1{
+    margin: 0px;
+    color: rgb(221, 221, 221);
+}
+
+.外框{
+    width: 800px;
+    margin: 0px auto;
+    box-shadow: 2px 2px 5px rgb(143, 143, 143);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+}
+
+
+.顶层{
+   padding: 5px 0px;
+   background-color: white;
+   position: sticky;
+   top: 0px;
+   text-align: center;
+}
+
+.遮挡{
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}

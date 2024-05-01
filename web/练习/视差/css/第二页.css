@@ -1,0 +1,24 @@
+._外层{
+    background-image: url(../img/2.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+._介绍{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+._介绍 h1{
+    margin: 0px;
+    color: white;
+}
+
+._正文{
+    width: 800px;
+    height: 2000px;
+    margin: 0px auto;
+    background-color: rgb(168, 166, 166);
+}
