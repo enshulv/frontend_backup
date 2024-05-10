@@ -1,0 +1,21 @@
+.todo-list {
+    list-style: none;
+    padding: 0px;
+    border-radius: 3px;
+}
+
+.todo-list li {
+    padding: 7px;
+    width: 552px;
+    margin: -1px auto;
+    border: 1px solid rgb(155, 153, 153);
+}
+
+.button {
+    float: right;  
+}
+
+.todo-list li:hover {
+    background-color: rgb(223, 223, 223);
+    display: block;
+}

@@ -1,0 +1,15 @@
+.footer-block {
+    list-style: none;
+    position: relative;
+    top: 5px;
+    right: 15px;
+}
+
+.clear {
+    float: right;
+}
+
+.hint {
+    position: relative;
+    left: -1px;
+}

@@ -1,0 +1,242 @@
+.SearchContent {
+    position: relative;
+    user-select: none;
+}
+
+.DisplayBox {
+    background-color: rgb(35, 38, 41);
+    border-radius: 5px;
+    height: calc(100vh - 270px);
+    overflow: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.DisplayBox::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(35, 38, 41);
+}
+
+.DisplayBox::-webkit-scrollbar-thumb {
+    background-color: rgb(160, 160, 160);
+    border-radius: 5px;
+}
+
+.ContentBox {
+    width: 16%;
+    margin: 0px 2%;
+    margin-top: 2%;
+    height: auto;
+}
+
+.ImageBox {
+    width: 100%;
+    height: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ImageBox img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.Category {
+    width: 60%;
+    margin: 0px auto;
+    margin-top: 5px;
+    padding: 2px;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.Rating_Center {
+    display: flex;
+    justify-content: center;
+}
+
+.Rating_ {
+    width: 80px;
+    height: 16px;
+    margin: 5px 0px;
+    background-image: url('../../../../icon/star.png');
+    color: rgba(0, 0, 0, 0);
+    position: relative;
+}
+
+.Name {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    word-break: break-all;
+    padding-bottom: 15px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.StyleSwitch {
+    width: 64px;
+    height: 32px;
+    position: absolute;
+    right: 50px;
+    top: -45px;
+    border: 2px solid rgb(255, 64, 129);
+    border-radius: 50px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.ToggleButton {
+    appearance: none;
+    cursor: pointer;
+}
+
+.ToggleButton::before {
+    content: '';
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    right: 2px;
+    top: 2.5px;
+    border-radius: 50%;
+    background-color: rgba(255, 64, 128, 0.8);
+    transition: right 0.3s;
+}
+
+.ToggleButton:checked::before {
+    right: 34px;
+}
+
+.StyleSwitch span {
+    width: 40px;
+    color: rgb(255, 64, 129);
+}
+
+.Tile {
+    position: absolute;
+    left: 70px;
+    top: 5px;
+}
+
+.List {
+    position: absolute;
+    right: 65px;
+    top: 5px;
+}
+
+.DisplayBox_ {
+    background-color: rgb(35, 38, 41);
+    border-radius: 5px;
+    height: calc(100vh - 270px);
+    overflow: auto;
+    overflow-x: hidden;
+    user-select: none;
+    color: white;
+}
+
+.DisplayBox_::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(35, 38, 41);
+}
+
+.DisplayBox_::-webkit-scrollbar-thumb {
+    background-color: rgb(160, 160, 160);
+    border-radius: 5px;
+}
+
+.ContentBox_ {
+    display: flex;
+    border-bottom: 1px solid white;
+}
+
+.ImageBox_ {
+    width: 250px;
+    max-height: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6px;
+    margin-right: 0px;
+    border-right: 1px solid white;
+}
+
+.ImageBox_ img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.MiddleBox {
+    width: 124;
+    margin: 6px 0px;
+    list-style: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: normal;
+    border-right: 1px solid white;
+}
+
+.MiddleBox li {
+    margin-bottom: 7px;
+}
+
+.Category_ {
+    width: 112px;
+    height: 37px;
+    margin: 0px auto 15px !important;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 550;
+}
+
+.Time {
+    font-size: 13.5px;
+}
+
+.Rating {
+    width: 80px;
+    height: 16px;
+    margin: 5px 0px !important;
+    background-image: url('../../../../icon/star.png');
+    color: rgba(0, 0, 0, 0);
+    position: relative;
+}
+
+.Uploader {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.Seed {
+    color: rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: center;
+    transform: scale(1.2);
+}
+
+.Seed_Yes {
+    width: 15px;
+    height: 15px;
+    background-image: url('../../../../icon/download.png');
+}
+
+.Seed_No {
+    width: 15px;
+    height: 15px;
+    background-image: url('../../../../icon/no-download.png');
+}
+
+.RightBox {
+    width: calc(100% - 442px);
+    margin: 15px 10px;
+    font-weight: 400;
+    cursor: pointer;
+}

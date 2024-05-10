@@ -1,0 +1,18 @@
+.search {
+    height: 200px;
+    background-color: rgb(235, 235, 235);
+}
+
+.search-section {
+    padding-top: 30px;
+    padding-left: 60px;
+}
+
+.search-section input {
+    height: 20px;
+    width: 250px;
+}
+
+.search-section button {
+    padding-bottom: 3px;
+}

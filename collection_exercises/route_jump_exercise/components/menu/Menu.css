@@ -1,0 +1,36 @@
+.menu {
+    width: 200px;
+    margin-right: 5%;
+    padding: 0px;
+    margin-top: 15px;
+}
+
+.menu a {
+    height: 50px;
+    cursor: pointer;
+    border: 1px solid rgb(189, 189, 190);
+    margin-top: -1px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.active {
+    background-color: rgb(50, 108, 184) !important;
+    color: white !important;
+}
+
+.menu a:hover {
+    background-color: rgb(238, 238, 238);
+}
+
+.menu a:last-child {
+    border-radius: 0px 0px 5px 5px;
+}
+
+.menu a:first-child {
+    border-radius: 5px 5px 0px 0px;
+}

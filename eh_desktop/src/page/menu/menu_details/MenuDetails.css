@@ -1,0 +1,22 @@
+.MenuDetails {
+    width: calc(100% + 20px);
+}
+
+.Avatar {
+    height: 100px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.Avatar img {
+    width: 100px;
+    height: 100%;
+    border-radius: 40px;
+}
+
+.Username {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}

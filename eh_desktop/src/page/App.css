@@ -1,0 +1,16 @@
+.main-container {
+    overflow: hidden;
+    margin-left: 12px;
+    font-weight: 550;
+}
+
+.non-title {
+    transition: padding-left 0.3s, width 0.3s;
+    width: 98vw;
+}
+
+.non-title-menu {
+    width: calc(98vw - 320px);
+    padding-left: 320px;
+    transition: padding-left 0.3s, width 0.3s;
+}
