@@ -1,4 +1,4 @@
-.顶部块{
+.TopBlock {
     width: 670px;
     height: auto;
     margin: 0px auto;
@@ -8,7 +8,7 @@
     padding: 10px 22px;
 }
 
-.tag按钮{
+.tagButton {
     list-style: none; 
     display: flex;
     flex-wrap: wrap;
@@ -17,11 +17,11 @@
     margin-bottom: 3px;
 }
 
-.tag按钮 input{
+.tagButton input {
     display:none; 
 }
 
-.tag按钮 label{
+.tagButton label {
     width: 125px;
     height: 30px;
     box-shadow: inset 0px 0px 5px rgba(255, 255, 255,0.2),
@@ -32,60 +32,60 @@
     cursor: pointer;
 }
 
-.tag按钮 span{
+.tagButton span {
     position: relative;
     top: 4px;
     user-select:none;
 }
 
-.同{
+.Same {
     background-color: rgb(158, 39, 32);
 }
 
-.漫{
+.Comic {
     background-color: rgb(219, 108, 36);
 }
 
-.绘{
+.Painting {
     background-color: rgb(211, 143, 29);
 }
 
-.游{
+.Game {
     background-color: rgb(97, 124, 99);
 }
 
-.西{
+.Western {
     background-color: rgb(171, 159, 96);
 }
 
-.无{
+.None {
     background-color: rgb(95, 169, 207);
 }
 
-.图{
+.Art {
     background-color: rgb(50, 92, 162);
 }
 
-.角{
+.Japanese {
     background-color: rgb(106, 50, 162);
 }
 
-.亚{
+.Asian {
     background-color: rgb(162, 50, 130);
 }
 
-.杂{
+.Misc {
     background-color: rgb(119, 119, 119);
 }
 
-.搜索栏{
+.SearchBar {
     width: 565px;
     height: 15px;
     margin-bottom: 10px;
     padding: 6px;
 }
 
-.上传搜索{
+.UploadSearch {
     width: 75px;
     height: 30px;
     background-color: #34353b;
@@ -96,14 +96,14 @@
     cursor: pointer;
 }
 
-a:link{
+a:link {
     color: #DDDDDD;
 }
 
-a:visited{
+a:visited {
     color: #DDDDDD;
 }
 
-.设置{
+.Settings {
     text-align: center;
 }

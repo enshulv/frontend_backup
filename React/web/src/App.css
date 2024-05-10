@@ -1,21 +1,21 @@
-body{
+body {
     margin: 0px;
-    background: linear-gradient(130deg,rgb(255, 150, 80),rgb(253, 36, 36));
+    background: linear-gradient(130deg, rgb(255, 150, 80), rgb(253, 36, 36));
 }
 
-.外框{
+.wrapper {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.标题{
+.title {
     width: 40px;
     height: 40px;
 }
 
-.菜单{
+.menu {
     position: absolute;
     width: 40px;
     height: 40px;
@@ -25,13 +25,13 @@ body{
     z-index: 2;
 }
 
-.菜单:hover+label,
-.菜单:hover+label::before,
-.菜单:hover+label::after{
+.menu:hover + label,
+.menu:hover + label::before,
+.menu:hover + label::after {
     background-color: white;
 }
 
-.菜单+label{
+.menu + label {
     width: 40px;
     height: 5px;
     background-color: rgba(223, 237, 250, 0.7);
@@ -43,53 +43,52 @@ body{
     transition: background 0.5s;
 }
 
-.菜单+label::before,
-.菜单+label::after{
+.menu + label::before,
+.menu + label::after {
     content: "";
     width: 40px;
     height: 5px;
     background-color: rgba(223, 237, 250, 0.7);
     border-radius: 2.5px;
     display: block;
-    transition: top 0.5s,transform 0.5s,background 0.5s;
+    transition: top 0.5s, transform 0.5s, background 0.5s;
     position: relative;
 }
 
-.菜单+label::before{
+.menu + label::before {
     top: -10px;
 }
 
-.菜单+label::after{
+.menu + label::after {
     top: 5px;
 }
 
-.菜单:checked+label{
+.menu:checked + label {
     background: transparent;
     transition: background 0.5s;
 }
 
-.菜单:checked+label::before,
-.菜单:checked+label::after{
+.menu:checked + label::before,
+.menu:checked + label::after {
     position: absolute;
     top: 0px;
     transform-origin: 50% 50%;
-    transition: top 0.5s,transform 0.5s,background 0.5s;
+    transition: top 0.5s, transform 0.5s, background 0.5s;
 }
 
-.菜单:checked+label::before{
+.menu:checked + label::before {
     transform: rotate(-45deg);
 }
 
-.菜单:checked+label::after{
+.menu:checked + label::after {
     transform: rotate(45deg);
 }
 
-
-@keyframes anime{
-    0%{
+@keyframes anime {
+    0% {
         transform: rotate3d(0);
     }
-    100%{
-        transform: rotate3d(1,1,1,360deg);
+    100% {
+        transform: rotate3d(1, 1, 1, 360deg);
     }
 }

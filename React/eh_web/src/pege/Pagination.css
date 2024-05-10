@@ -1,5 +1,5 @@
-/* 页码块样式 */
-.页码块{
+/* Pagination Block Styles */
+.pagination-block {
     min-width: 720px;
     list-style: none;
     display: flex;
@@ -8,33 +8,33 @@
     margin: 0px;
 }
 
-.页码块 a{
+.pagination-block a {
     padding: 3px 15px;
     display: inline-block;
     text-decoration: none;
 }
 
-.页码块 li{
+.pagination-block li {
     margin: 0px -1px;
     background-color: #4f535b;
     border: 1px solid black;
 }
 
-.选中{
+.selected {
     font-weight: 1000;
 }
 
-/* 展示列表样式 */
-.展示列表{
+/* Display List Styles */
+.display-list {
     list-style: none;
     padding: 0px;
     margin: 0px;
 }
 
-.展示列表 li:first-child .展示块{
+.display-list li:first-child .display-block {
     border-radius: 5px 5px 0px 0px;
 }
 
-.展示列表 li:last-child .展示块{
+.display-list li:last-child .display-block {
     border-radius: 0px 0px 5px 5px;
 }

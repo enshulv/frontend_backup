@@ -1,5 +1,5 @@
-/* 全部块样式 */
-.展示块{
+/* All block styles */
+.DisplayBlock {
     width: 1250px;
     list-style: none;
     margin: -1px auto;
@@ -9,25 +9,25 @@
     display: flex;
 }
 
-/* 左侧样式 */
-.左侧{
+/* Left side styles */
+.LeftSide {
     display: flex;
 }
 
-.左侧_内容{
+.LeftSide_Content {
     width: 230px;
     margin: 0px 10px;
     padding:10px 15px;
     border-right: 1px solid black;
 }
 
-.上传者{
+.Uploader {
     display: block;
     text-align: center;
     margin-bottom: 10px;
 }
 
-.tag{
+.Tag {
     width: 130px;
     height: 30px;
     margin: 0px auto;
@@ -41,58 +41,58 @@
     cursor: pointer;
 }
 
-.img {
+.Image {
     width: 250px;
     height: 366px;
     border: 1px solid black;
 }
 
-.介绍{
+.Description {
     display: flex;
 }
 
-.标题{
+.Title {
     width: 80px;
     font-weight: 700;
     text-align: left;
 }
 
-/* 右侧样式 */
-.右侧{
+/* Right side styles */
+.RightSide {
     width: 100%;
 }
 
-.右侧_标题{
+.RightSide_Title {
     padding-bottom: 15px;
     border-bottom: 2px solid #34353b;
 }
 
-.右侧_标题 p{
+.RightSide_Title p {
     font-size: 18px;
     margin-bottom: 5px;
 }
 
-.右侧_tags{
+.RightSide_Tags {
     margin: 10px 0px 5px 5px;
 }
 
-.右侧_tag{
+.RightSide_Tag {
     display: flex;
     margin-bottom: 5px;
 }
 
-.tag_标题{
+.Tag_Title {
     min-width: 60px;
     text-align: right;
 }
 
-.tag_内容{
+.Tag_Content {
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
 }
 
-.tag_内容 a{
+.Tag_Content a {
     height: 17px;
     margin-left: 5px;
     padding: 2px 6px 4px 6px;
@@ -101,12 +101,12 @@
     text-decoration: none;
 }
 
-.tag_内容 a:hover{
+.Tag_Content a:hover {
     color: aliceblue;
 }
 
-/* 种子样式 */
-.遮罩{
+/* Seed styles */
+.Mask {
     position: fixed;
     top: 0px;
     left: 0px;
@@ -118,7 +118,7 @@
     align-items: center;
 }
 
-.种子页面{
+.SeedPage {
     width: 900px;
     padding: 20px 15px 20px 15px;
     background-color: #34353b;
@@ -126,23 +126,16 @@
     font-size: 13px;
 }
 
-.种子内容{
+.SeedContent {
     font-size: 13px;
     text-align: center;
 }
 
-.种子页面 th{
+.SeedPage th {
     padding-bottom: 5px;
     border-bottom: 2px solid rgb(173, 173, 173);
 }
 
-.种子内容 td{
+.SeedContent td {
     padding-top: 5px;
 }
-
-
-
-
-
-
-
